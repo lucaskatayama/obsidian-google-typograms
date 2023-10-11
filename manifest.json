@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-google-typograms",
+	"name": "Google Typograms",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Google Typograms for Obsidian",
+	"author": "Lucas Katayama",
+	"authorUrl": "https://github.com/lucaskatayama/obsidian-google-typograms",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

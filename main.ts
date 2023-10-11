@@ -23,6 +23,12 @@ export default class MyPlugin extends Plugin {
 			el.appendChild(svg)
 		});
 
+		this.registerMarkdownCodeBlockProcessor("typogram", (source, el, ctx) => {
+			const svg = create("\n" + source + "\n", Number(this.settings.Zoom), false);
+			el.addClass("google-typogram")
+			el.appendChild(svg)
+		});
+
 		// This adds a settings tab so the user can configure various aspects of the plugin
 		this.addSettingTab(new SampleSettingTab(this.app, this));
 
